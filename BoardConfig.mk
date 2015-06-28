@@ -153,6 +153,10 @@ BOARD_USES_QCNE := true
 endif
 BOARD_USES_QCOM_HARDWARE := true
 
+# Quickboot
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/QuickBoot.apk:system/priv-app/QuickBoot/QuickBoot.apk
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := ABGR_8888
