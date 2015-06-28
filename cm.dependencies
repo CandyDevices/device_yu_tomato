@@ -5,6 +5,7 @@
     "target_path": "kernel/yu/msm8916",
     "revision":    "cm-12.1"
   },
+  {
     "remote":      "github",
     "repository":  "CyanogenMod/android_external_mm-dash",
     "target_path": "external/mm-dash",
