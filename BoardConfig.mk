@@ -215,5 +215,10 @@ WIFI_DRIVER_MODULE_PATH          := "/system/lib/modules/wlan.ko"
 WIFI_DRIVER_MODULE_NAME          := "wlan"
 endif
 
+USE_GRAPHITE := true
+USE_LTO := true
+CANDY_ARM_OPT_LEVEL := -O3
+CANDY_THUMB_OPT_LEVEL := -O3
+
 # inherit from the proprietary version
 -include vendor/yu/tomato/BoardConfigVendor.mk
